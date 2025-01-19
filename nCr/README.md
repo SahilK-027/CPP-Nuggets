@@ -7,13 +7,12 @@ In combinatorics,
 ```
 For large values of `𝑛`, the factorial `𝑛!` grows rapidly and can exceed computational limits. Even with modulo 𝑀 (1000000007), directly dividing factorials isn't feasible because modular arithmetic doesn't support division directly.
 
-```
 > [!NOTE]  
 > - The number `1000000007` is a commonly used prime number in competitive programming and computer science for modular arithmetic. Here's why:
 > - 1000000007 is a prime number, which is crucial for applying Fermat's Little Theorem.
 > - 1000000007 is close to 10^9 , which is large enough to prevent intermediate results from overflowing in most calculations.
 > - 1000000007 fits within a 32-bit integer (the max value of a 32-bit integer is 2^31 − 1 = 2147483647).
-```
+
 
 ## Step 2: Why Modulo is Important
 When 𝑛 becomes large (e.g., 𝑛 = 100000), n! becomes a huge number. To keep calculations manageable, we use modulo 𝑀
